@@ -87,7 +87,7 @@ function createLegend(){
         value.innerHTML = magnitude;
         item.appendChild(key);
         item.appendChild(value);
-
+        legend.appendChild(item);
       }
 }
 
